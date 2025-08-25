@@ -299,6 +299,63 @@ section {
     flex-wrap: wrap;
 }
 
+/* Download Cards */
+.download-cards {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.download-card {
+    background: rgba(15, 20, 25, 0.6);
+    border: 1px solid rgba(59, 130, 246, 0.2);
+    border-radius: 20px;
+    padding: 2rem;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.download-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
+}
+
+.download-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #60a5fa;
+}
+
+.btn-download {
+    background: rgba(59, 130, 246, 0.1);
+    color: #3b82f6;
+    border: 1px solid #3b82f6;
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: background 0.3s, color 0.3s;
+    width: 11rem;
+}
+
+.btn-download:hover {
+    background: rgba(59, 130, 246, 0.2);
+    color: #1d4ed8;
+}
+
+/* Platform Logos */
+.platform-logo {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 1rem;
+}
+
 /* Footer */
 .footer {
     background: rgba(15, 20, 25, 0.8);
