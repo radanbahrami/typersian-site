@@ -65,7 +65,8 @@ body {
 .hero {
     background: transparent;
     color: #e8eaed;
-    padding: 8rem 0 6rem;
+    padding-top: 8rem;
+    padding-bottom: 0;
     text-align: center;
 }
 
