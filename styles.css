@@ -393,6 +393,18 @@ section {
     text-align: center;
 }
 
+.footer-github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.github-logo {
+    width: 32px;
+    height: 32px;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .hero-title {
