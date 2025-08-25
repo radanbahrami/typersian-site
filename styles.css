@@ -363,6 +363,16 @@ section {
     color: rgba(255, 255, 255, 0.85);
 }
 
+/* Checksum note under download buttons */
+.checksum-note {
+    margin-top: 0.6rem;
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.85);
+    word-wrap: break-word;
+    word-break: break-all;
+    max-width: 100%;
+}
+
 /* Platform Logos */
 .platform-logo {
     width: 64px;
