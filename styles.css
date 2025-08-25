@@ -338,9 +338,9 @@ section {
 }
 
 .btn-download {
-    background: #1d4ed8;
+    background: transparent;
     color: #ffffff;
-    border: 1px solid #3b82f6;
+    border: 1px solid #ffffff;
     padding: 0.8rem 1.5rem;
     border-radius: 10px;
     font-weight: 600;
@@ -350,7 +350,7 @@ section {
 }
 
 .btn-download:hover {
-    background: #1e40af;
+    background: #2175fc;
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(59, 130, 246, 0.5);
     color: #ffffff;
